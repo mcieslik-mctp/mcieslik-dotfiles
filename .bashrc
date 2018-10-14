@@ -15,4 +15,4 @@ PS1="\[\033[0;37m\]\342\224\214\342\224\200\$([[ \$? != 0 ]] && echo \"[\[\033[0
 ## aliases
 alias e="TERM=xterm-256color emacs -nw"
 alias l="ls --color=always --group-directories-first"
-alias config='/usr/bin/git --git-dir=/home/mcieslik/.cfg/ --work-tree=/home/mcieslik'
+alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
